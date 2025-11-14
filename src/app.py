@@ -11,6 +11,12 @@ from fastapi.responses import RedirectResponse
 import os
 from pathlib import Path
 
+from fastapi import FastAPI
+
+app = FastAPI()
+
+# Your routes here
+
 app = FastAPI(title="Mergington High School API",
               description="API for viewing and signing up for extracurricular activities")
 
